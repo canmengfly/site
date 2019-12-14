@@ -22,3 +22,4 @@ module.exports = {
   // comment out downloadLink to use latest release
   downloadLink: `${repoURL}/archive/${repoBranch}/.zip`,
 }
+
