@@ -5,7 +5,7 @@ const path = require('path')
 const projectRoot = path.join(__dirname, '..', '..')
 const repoURL = 'https://github.com/serverless/serverless'
 // set branch of docs you want to see (set to tag of latest release)
-const repoBranch = 'docs-cicd-ga'
+const repoBranch = 'docs-cicd-dec-19-features'
 /* uncomment out the line below to work locally with different docs branch
 repoBranch = 'improve-docs'
 /**/
