@@ -1,0 +1,519 @@
+.wrapper {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding-top: 72px;
+  background: #f7f7f7;
+  font-family: 'Soleil';
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px 0 40px 0;
+  color: #000000;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  font-family: 'SoleilSB';
+  font-size: 32px;
+}
+
+.description {
+  text-align: center;
+  width: 100%;
+  max-width: 1000px;
+  font-size: 19px;
+  font-family: 'Soleil';
+  letter-spacing: -.2px;
+  line-height: 30px;
+}
+
+.description a {
+  font-family: 'Soleil';
+  color: #000000;
+  text-decoration: underline;
+}
+
+.logoPro {
+  margin: 0 0 30px 0;
+}
+
+.logoPro img {
+  user-select: none;
+  height: 170px;
+}
+
+/**
+ * Pricing Summary - Desktop
+ */
+
+.pricingSummary {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.pricingSummaryTile {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin: 0 0 20px 0;
+  padding: 30px 32px 20px 32px;
+  user-select: none;
+  background: #fff;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.07);
+}
+
+.freeTile {
+  margin-right: -20px;
+  margin-top: 50px;
+}
+
+.enterpriseTile {
+  margin-left: -20px;
+  margin-top: 50px;
+}
+
+.teamTile {
+  z-index: 100;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.15);
+}
+
+.teamTile .pricingHeader {
+  height: 378px;
+}
+
+.pricingSummaryTile a {
+  color: #000000;
+}
+
+.pricingHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 20px 0;
+}
+
+.pricingSummaryTile:first-child {
+  margin-left: 0px;
+}
+
+.pricingSummaryTile:last-child {
+  margin-right: 0px;
+}
+
+.pricingSummaryButtonWrapper {
+  margin: 20px 0;
+}
+
+.salesLink {
+  font-family: 'SoleilSB';
+  letter-spacing: -0.1px;
+  color: #fd5750;
+  text-align: center;
+}
+
+.pricingSummaryDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.pricingSummaryDetailClickable {
+  transition: all 0.25s ease;
+}
+
+.pricingSummaryDetailClickable:hover {
+  cursor: pointer;
+  background: rgba(0,0,0,0.025);
+}
+
+.pricingSummaryDetailClickable:hover .pricingSummaryDetailTitle {
+  text-decoration: underline;
+}
+
+.pricingSummaryDetailEdition {
+  font-size: 30px;
+  font-family: 'SoleilSB';
+  letter-spacing: -0.1px;
+  color: #fd5750;
+  text-align: center;
+  padding: 14px 0 0 0;
+}
+
+.pricingSummaryDetailPrice {
+  font-size: 52px;
+  font-family: 'SoleilSB';
+  letter-spacing: -0.1px;
+  color: #000000;
+  text-align: center;
+  padding: 24px 0 10px 0;
+}
+
+.pricingSummaryDetailPrice span {
+  font-size: 20px;
+  font-family: 'SoleilSB';
+  margin-top: 20px;
+}
+
+.pricingSummaryDetailPriceEnterprise {
+  font-size: 22px;
+  font-family: 'SoleilSB';
+  letter-spacing: -0.1px;
+  color: #000000;
+  text-align: center;
+  padding: 24px 0 10px 0;
+}
+
+.pricingSummaryDetailPrice,
+.pricingSummaryDetailPriceEnterprise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+}
+
+.pricingSummaryDetailText {
+  font-family: 'SoleilLt';
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  padding: 8px 0 0 0;
+}
+
+.pricingSummaryDetailTitle {
+  font-family: 'SoleilSB';
+  text-transform: capitalize;
+  font-size: 18px;
+  letter-spacing: -0.3px;
+  text-align: center;
+  padding-top: 3px;
+}
+
+/**
+ * Pricing Summary - Mobile
+ */
+
+@media screen and (max-width: 1280px) {
+  .teamTile {
+    z-index: 0;
+    box-shadow: none;
+  }
+  .pricingSummary {
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  .pricingSummaryTile {
+    margin: 20px 0;
+    width: 100%;
+  }
+}
+
+
+/**
+ * Pricing Addons
+ */
+
+@media screen and (min-width: 1281px) {
+  .addOns {
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .addOnTile {
+    margin: 20px 0;
+    width: 50%;
+  }
+
+  .addOnTile:first-child {
+    margin-right: 26px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+ .addOns {
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .addOnTile {
+   margin: 20px 0;
+   width: 100%;
+ }
+}
+
+ .addOns {
+   display: flex;
+   box-sizing: border-box;
+   width: 100%;
+ }
+
+ .addOnTile {
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   min-height: 100px;
+   background: #ffffff;
+   padding: 40px 32px 40px 32px;
+   border-radius: 2px;
+   border: 1px solid rgba(0, 0, 0, 0.18);
+   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.07);
+   transition: all 0.3s ease;
+   user-select: none;
+ }
+
+ .addOnTile:hover {
+   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.15);
+   transform: scale(1.005) translate3d(0, 0, 0) perspective(1px);
+ }
+
+ .addOnTileServerless {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-sizing: border-box;
+   font-family: 'Serverless';
+   font-size: 20px;
+   line-height: 18px;
+   color: #000;
+ }
+
+ .addOnTileAddOn {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   box-sizing: border-box;
+   font-family: 'Serverless';
+   font-size: 38px;
+   color: #000;
+ }
+
+ .addOnTileDescription {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-sizing: border-box;
+   text-align: center;
+   font-family: 'SoleilLt';
+   font-size: 18px;
+   line-height: 28px;
+   color: #000;
+   margin: 40px 0;
+ }
+
+.addOnTileAction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+/**
+ * Pricing Table - Desktop
+ */
+
+.tableDesktop {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  margin: 0 0 50px 0;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.07);
+  transition: all 0.3s ease;
+}
+
+.tableDesktop .tableSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tableDesktop .tableRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.tableDesktop .tableRow:last-child {
+  border-bottom: none;
+}
+
+.tableDesktop .tableColumn {
+  display: flex;
+  flex-direction: column;
+  width: 16%;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+
+.tableDesktop .tableEditions {
+  display: flex;
+  flex-direction: row;
+}
+
+.tableDesktop .tableEditions .tableColumn {
+  padding: 30px 0;
+  color: #fd5750;
+  font-size: 22px;
+}
+
+.tableDesktop .tableRowCategory {
+  font-family: 'SoleilSB';
+  font-size: 18px;
+  background: #f2f2f2;
+  border-bottom: none;
+}
+
+.tableDesktop .tableRowCategory .tableFeature {
+  font-family: 'SoleilSB';
+  font-size: 18px;
+  line-height: auto;
+}
+
+.tableDesktop .tableFeature {
+  width: 52%;
+  font-family: 'Soleil';
+  font-size: 16px;
+  text-align: left;
+  padding: 24px 0 14px 40px;
+}
+
+.tableDesktop .tableEditions {
+  font-family: 'SoleilSB';
+  font-size: 18px;
+}
+
+/**
+ * Pricing Table - Mobile
+ */
+
+@media screen and (max-width: 992px) {
+  .tableDesktop {
+    display: none;
+  }
+  .tableMobile {
+    display: flex !important;
+  }
+}
+
+.tableMobile {
+  display: none;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #ffffff;
+  margin: 0 0 120px 0;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.07);
+  transition: all 0.3s ease;
+}
+
+.tableMobile .tableSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tableMobile .tableRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-family: 'SoleilBk';
+  font-size: 17px;
+}
+
+.tableMobile .tableRow .tableColumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 20px 5px;
+}
+
+.tableMobile .tableColumnCategory {
+  font-family: 'SoleilSB';
+  font-size: 18px;
+  background: #f2f2f2;
+}
+
+.check {
+  color: #000;
+  font-size: 20px;
+}
+
+.cross {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 28px;
+  font-family: 'SoleilLt';
+}
+
+.limit {
+  margin-top: 5px;
+  color: #000;
+  font-size: 16px;
+  font-family: 'SoleilSB';
+}
+
+.fadeIn {
+  -webkit-animation: fadeIn 0.5s;
+  -moz-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.fadeInUp {
+  -webkit-animation: fadeInUp 1s;
+  -moz-animation: fadeInUp 1s;
+  animation: fadeInUp 1s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 3%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}

@@ -1,0 +1,41 @@
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+.idea/
+.vscode
+
+# Build directory
+/public
+/dist
+.DS_Store
+
+# blogs
+serverless-enterprise
+serverless-examples
+serverless-plugins
+serverless-blog
+serverless
+
+# dynamic config
+.env.development
+.env.production
+
+# dynamic content folders
+content/blog
+content/examples 
+content/framework
+content/example
+content/plugins
+content/enterprise
+
+# dynamic content files
+src/components/pages/company/jobs/OpenPositions/data.js
+
+# dynamic constants
+src/constants/featured-blogs.json
+src/constants/generated-authors.json
+src/constants/generated-menu-items.js
+src/constants/generated-menu-items-new.js
+src/constants/generated-enterprise-menu-items.js
+src/constants/generated-enterprise-menu-items-new.js
