@@ -5,13 +5,13 @@ import { Heading, P0 } from 'src/fragments/DesignSystem'
 const EasySetupContent = props => (
   <Flex flexDirection='column' width={[1, 1, 0.4]}>
     <Heading.h3 mb={22}>
-      Easy setup, zero maintenance
+    易于设置，零维护
     </Heading.h3>
     <P0 mb={[42, 42, 0]}>
-      Connect to your AWS and Github accounts, select your repo, and you are ready to test and deploy. No more configuration of steps, shell scripts, test commands, dependency installation, deploy commands or configuration files in your repo.
+    连接到 Github 账户，选择您的存储库，就可以进行测试和部署。在仓库中无需再配置步骤，shell脚本，测试命令，依赖项安装，部署命令或配置文件。
       <br/>
       <br/>
-      Serverless CI/CD inspects the serverless.yml in your repository and automatically configures tests and deployments. 
+      Serverless CI/CD 会检查存储库中的 serverless.yml 并自动配置测试和部署。
     </P0>
   </Flex>
 )

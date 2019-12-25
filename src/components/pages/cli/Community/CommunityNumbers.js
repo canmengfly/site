@@ -9,7 +9,7 @@ const CommunityNumbers = () => (
     <Column width={[1, 1, 1, 1]} mb={[92, 92, 92, 92, 132]}>
       <Box width={[1]}>
         <Heading.h3 color='black' align='center' fontFamily='Soleil'>
-          Backed by a rich and vibrant community
+          丰富的开源社区支持
         </Heading.h3>
       </Box>
       <Row

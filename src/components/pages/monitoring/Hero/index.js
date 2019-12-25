@@ -17,25 +17,24 @@ const Hero = props => (
           alt={'Serverless Framework'}
           className={styles.frameworkLogo} />
         <div className={styles.productName}>
-          monitoring
+          监控
         </div>
         <div className={styles.productTagline}>
-        Instant, powerful metrics for your serverless apps, covering usage,
-        performance, errors & more.
+        针对 Serverless 应用程序即时强大的指标监控，包括资源使用率，性能，错误等。
         </div>
         <div className={styles.productCTA}>
           <ExternalLink to={dashboard}>
-            <Button type='primary' text='Sign up for free'/>
+            <Button type='primary' text='敬请期待'/>
           </ExternalLink>
         </div>
-        <div className={styles.productEdition}>
+        {/* <div className={styles.productEdition}>
           Available now in
           <InternalLink
             className={styles.editionLink}
             to={pricing}>
           Serverless Framework Pro.
           </InternalLink>
-        </div>
+        </div> */}
       </div>
       <div className={styles.productHeroColumnRight}>
         <img

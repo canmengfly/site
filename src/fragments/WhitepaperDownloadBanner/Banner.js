@@ -107,11 +107,10 @@ const FrameworkWhitepaperBanner = props => (
               fontFamily='Soleil'
               align='center'
             >
-              See full architecture diagrams with time-to-market estimates for
-              use cases.
+              查看更多完整客户用例及中文开发者社区内容
             </Text>
           </Box>
-          <DownloadButton {...props}>download whitepaper</DownloadButton>
+          <DownloadButton to={"https://serverlesscloud.cn/"}>中文社区</DownloadButton>
         </FlexWithZIndex>
         <RightSpinningWheel
           backgroundImage={`url(${bannerWheelRight})`}

@@ -6,24 +6,24 @@ import { P, SecondaryButton } from 'src/fragments/DesignSystem'
 import { examples, tutorials } from 'src/constants/urls.js'
 import { InternalLink } from 'src/fragments'
 
-const data = [
-  {
-    image: examplesIcon,
-    heading: 'Examples',
-    content:
-      'Search our full examples repository for project examples using all languages and FaaS providers.',
-    cta: 'search examples',
-    link: examples,
-  },
-  {
-    image: tutorialsIcon,
-    heading: 'Tutorials',
-    content:
-      'Learn how to create Serverless projects, build and deploy your apps in any provider.',
-    cta: 'find tutorials',
-    link: tutorials,
-  },
-]
+// const data = [
+//   {
+//     image: examplesIcon,
+//     heading: '使用示例',
+//     content:
+//       '更多完整使用示例查看及案例介绍',
+//     cta: '最佳实践',
+//     link: "https://serverlesscloud.cn/best-practice",
+//   },
+//   {
+//     image: tutorialsIcon,
+//     heading: '详细介绍',
+//     content:
+//       '学习如何在项目中完整应用并架构示例',
+//     cta: '开始学习',
+//     link: tutorials,
+//   },
+// ]
 
 const ContentBlock = ({ image, heading, content, cta, link }) => (
   <Flex

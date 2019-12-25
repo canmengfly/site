@@ -17,24 +17,24 @@ const AlertsHero = props => (
           alt={'Serverless Framework'}
           className={styles.frameworkLogo} />
         <div className={styles.productName}>
-          alerts
+          告警
         </div>
         <div className={styles.productTagline}>
-          Catch errors & performance issues in real-time, based on advanced alerts, configured automatically.
+        自动配置的高级告警功能，可实时捕获错误信息及性能问题反馈
         </div>
         <div className={styles.productCTA}>
           <ExternalLink to={dashboard}>
-            <Button type='primary' text='Sign up for free'/>
+            <Button type='primary' text='敬请期待'/>
           </ExternalLink>
         </div>
-        <div className={styles.productEdition}>
+        {/* <div className={styles.productEdition}>
           Available now in
           <InternalLink
             className={styles.editionLink}
             to={pricing}>
           Serverless Framework Pro.
           </InternalLink>
-        </div>
+        </div> */}
       </div>
       <div className={styles.productHeroColumnRight}>
         <img

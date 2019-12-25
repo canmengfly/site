@@ -6,14 +6,10 @@ import { InternalLink } from 'src/fragments'
 const CustomPoliciesContent = props => (
   <Flex flexDirection='column' width={[1, 1, 0.45]}>
     <Heading.h3 mb={22}>
-      Add custom integrations with Webhooks and SNS Topics
+    可配置的 Webhooks
     </Heading.h3>
     <P0 mb={[42, 42, 0]}>
-      While getting notified in Slack and email is great, sometimes you might
-      want to send it to other tools in your ecosystem, like custom internal
-      tools or other services not yet supported out of the box (e.g. PagerDuty).
-      Use the webhooks or SNS Topic integration to send alerts from Serverless
-      Framework to custom API endpoints or SNS Topics.
+    使用webhooks或SNS Topic集成可以将Serverless告警信息从Serverless Framework 发送到自定义API接口或SNS Topic。
     </P0>
   </Flex>
 )

@@ -1,14 +1,14 @@
 export default [
   {
-    title: 'Downloads',
+    title: '下载量',
     number: '12,796,866',
   },
   {
-    title: 'Weekly deployments',
+    title: '每周部署次数',
     number: '658,719',
   },
   {
-    title: 'Plugins',
+    title: '插件',
     number: '215',
   },
   {

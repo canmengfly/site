@@ -4,13 +4,10 @@ import { Heading, P0 } from 'src/fragments/DesignSystem'
 
 const CustomPoliciesContent = props => (
   <Flex flexDirection='column' width={[1, 1, 0.4]}>
-    <Heading.h3 mb={22}>All Signal, No Noise</Heading.h3>
+    <Heading.h3 mb={22}>全链路智能跟踪</Heading.h3>
     <P0 mb={[42, 42, 0]}>
-      The Serverless Framework Monitoring’s smart alerts and graphs take you
-      straight to the exact log section, function span and stack trace you need
-      to help you resolve issues. Because we instrument your services for you,
-      we can provide guided paths from awareness to resolution, so you don’t
-      have to spend time looking for correlations yourself.
+    Serverless Framework 智能监控和告警功能可以帮助开发者快速寻找到到异常日志。
+    提供完善的排障处理，指导路径等。帮助开发者精确定位问题。
     </P0>
   </Flex>
 )

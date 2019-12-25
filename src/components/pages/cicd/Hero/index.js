@@ -20,21 +20,21 @@ const CiCdHero = props => (
           CI/CD
         </div>
         <div className={styles.productTagline}>
-          Test and deploy your serverless apps with ease!
+        轻松测试和部署Serverless应用
         </div>
         <div className={styles.productCTA}>
           <ExternalLink to={dashboard}>
-            <Button type='primary' text='Sign up for free'/>
+            <Button type='primary' text='尽请期待'/>
           </ExternalLink>
         </div>
-        <div className={styles.productEdition}>
+        {/* <div className={styles.productEdition}>
           Available now in
           <InternalLink
             className={styles.editionLink}
             to={pricing}>
           Serverless Framework Pro.
           </InternalLink>
-        </div>
+        </div> */}
       </div>
       <div className={styles.productHeroColumnRight}>
         <img

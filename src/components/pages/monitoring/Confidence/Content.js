@@ -4,12 +4,10 @@ import { Heading, P0 } from 'src/fragments/DesignSystem'
 
 const CustomPoliciesContent = props => (
   <Flex flexDirection='column' width={[1, 1, 0.4]}>
-    <Heading.h3 mb={22}>Deploy with confidence</Heading.h3>
+    <Heading.h3 mb={22}>部署状态可控</Heading.h3>
     <P0 mb={[42, 42, 0]}>
-      With our deployment tracker, you’ll learn right away when changes you make
-      to your service affect performance or cause an error. Scan the deployments
-      stream and open a deployment report to view VCS information, policy
-      compliance status, output variables, deployment logs and code diffs.
+    当Serverless应用更改导致性能故障或部署错误时 Serverless Framework 会自动检测并输出错误状态，
+    部署日志和相关代码差异。
     </P0>
   </Flex>
 )

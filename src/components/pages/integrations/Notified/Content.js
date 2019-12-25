@@ -4,12 +4,10 @@ import { Heading, P0 } from 'src/fragments/DesignSystem'
 
 const CustomPoliciesContent = props => (
   <Flex flexDirection='column' width={[1, 1, 0.4]}>
-    <Heading.h3 mb={22}>Get notified before something goes wrong</Heading.h3>
+    <Heading.h3 mb={22}>即时的信息通知</Heading.h3>
     <P0 mb={[42, 42, 0]}>
-      Get notifications about potential issues before they impact the quality of
-      service. You’ll be notified about dangers like new errors, high memory
-      usage, unusual durations, and more. The integration allow you to send the
-      notifications to your team via Slack or email.
+    在潜在问题影响服务质量之前获取通知。
+    通过信息整理渠道，可以将报错，内存使用率，异常持续时间等信息高效下发到企业微信，电子邮箱等。
     </P0>
   </Flex>
 )

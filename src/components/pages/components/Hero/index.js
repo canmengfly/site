@@ -17,22 +17,21 @@ const Hero = props => (
           alt={'Serverless Framework'}
           className={styles.frameworkLogo} />
         <div className={styles.productName}>
-          components
+          组件
         </div>
         <div className={styles.productTagline}>
-          The Serverless Framework's new infrastructure provisioning technology — Build, compose, & deploy serverless apps in seconds...
+        Serverless Framework 最新推出功能，数秒内即可构建，并部署 Serverless 应用... ...
         </div>
         <div className={styles.productCTA}>
           <ExternalLink to={componentsGithub}>
-            <Button type='primary' text='Use Components'/>
+            <Button type='primary' text='即刻使用'/>
           </ExternalLink>
         </div>
         <div className={styles.productEdition}>
-          Available now in
           <ExternalLink
             className={styles.editionLink}
             to={componentsGithub}>
-          Serverless Framework Open-Source.
+          Serverless Framework 开源项目
           </ExternalLink>
         </div>
       </div>

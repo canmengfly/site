@@ -15,7 +15,7 @@ export default {
   useCases: '/learn/use-cases/',
   comparisons: '/learn/comparisons/',
   enterprise: '/enterprise/',
-  dashboard: 'https://dashboard.serverless.com',
+  dashboard: '#', //中文pro修改
   dashboardPage: '/dashboard/',
   examples: '/examples/',
   plugins: '/plugins/',

@@ -19,23 +19,21 @@ const CLIHero = props => (
           alt={'Serverless Framework'}
           className={styles.frameworkLogo} />
         <div className={styles.productName}>
-          command line interface
+          
         </div>
         <div className={styles.productTagline}>
-        Easy YAML + CLI development and deployment to AWS, Azure, Google Cloud &
-        more.
+        通过YAML+ CLI命令行工具，即可将Serverless应用轻松部署到云端
         </div>
         <div className={styles.productCTA}>
           <InternalLink to={gettingStarted}>
-            <Button type='primary' text='Download'/>
+            <Button type='primary' text='下载'/>
           </InternalLink>
         </div>
         <div className={styles.productEdition}>
-          Available now in
           <InternalLink
             className={styles.editionLink}
             to={gettingStarted}>
-            Serverless Framework Open-Source.
+            Serverless Framework 开源项目.
           </InternalLink>
         </div>
       </div>

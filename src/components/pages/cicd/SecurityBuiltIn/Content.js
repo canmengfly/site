@@ -5,13 +5,11 @@ import { Heading, P0 } from 'src/fragments/DesignSystem'
 const SecurityBuiltInContent = props => (
   <Flex flexDirection='column' width={[1, 1, 0.4]}>
     <Heading.h3 mb={22}>
-      Security built-in
+    安全性
     </Heading.h3>
     <P0 mb={[42, 42, 0]}>
-      No more copying and pasting your AWS account keys or other account credentials into scripts or environment variables.
+    Serverless CI/CD  使用将为每个云端部署生成短期密钥。而且，密钥管理是内置的因此可以安全地存储密钥并在部署时使用。
       <br/>
-      <br/>
-      Serverless CI/CD uses AWS Access Roles to generate short-lived credentials per deployment. And secrets management is built in so you can securely store your secrets and use them when you deploy.
     </P0>
   </Flex>
 )

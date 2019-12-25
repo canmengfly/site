@@ -17,24 +17,24 @@ const Hero = props => (
           alt={'Serverless Framework'}
           className={styles.frameworkLogo} />
         <div className={styles.productName}>
-          integrations
+          信息整合
         </div>
         <div className={styles.productTagline}>
-          Integrate metrics, alerts and more with the all of your other tools.
+        将运行指标，监控告警等信息与其他工具快速整合
         </div>
         <div className={styles.productCTA}>
           <ExternalLink to={dashboard}>
             <Button type='primary' text='Sign up for free'/>
           </ExternalLink>
         </div>
-        <div className={styles.productEdition}>
+        {/* <div className={styles.productEdition}>
           Available now in
           <InternalLink
             className={styles.editionLink}
             to={pricing}>
           Serverless Framework Pro.
           </InternalLink>
-        </div>
+        </div> */}
       </div>
       <div className={styles.productHeroColumnRight}>
         <img

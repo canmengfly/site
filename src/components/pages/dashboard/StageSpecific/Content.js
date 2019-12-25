@@ -4,15 +4,11 @@ import { Heading, P0 } from 'src/fragments/DesignSystem'
 
 const CustomPoliciesContent = props => (
   <Flex flexDirection='column' width={[1, 1, 0.4]}>
-    <Heading.h3 mb={22}>Centrally configure stage-specific settings</Heading.h3>
+    <Heading.h3 mb={22}>版本环境分离</Heading.h3>
     <P0 mb={[42, 42, 0]}>
-      Not all environments are created equally - what might be ok to do in
-      development may not be ok to do in production. The Serverless Framework
-      enables you to group common secrets, safeguards, AWS accounts, output
-      variables, and parameters into profiles so you can centrally configure
-      them once and share them across your services stage-by-stage. When you
-      deploy, your services will automatically use the right configurations so
-      you never have to worry about misconfigured deployments.
+    在真实开发中我们可能需要对测试环境，开发环境，生产环境做分割。
+    Serverless Framework 可以在账号层级输出变量和参数分组到配置文件，
+    以便开发者可以集中配置并将应用部署到相关环境。
     </P0>
   </Flex>
 )

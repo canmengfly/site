@@ -4,12 +4,12 @@ import { Heading, P0 } from 'src/fragments/DesignSystem'
 
 const IndustryStandardContent = props => (
   <Flex flexDirection='column' width={[1, 1, 0.4, 0.5, 0.4]}>
-    <Heading.h3 mb={22}>Monitoring made easy</Heading.h3>
+    <Heading.h3 mb={22}>监控视图</Heading.h3>
 
     <P0 mb={[42, 42, 0]}>
-    Open your Serverless Framework dashboard and gain instant awareness of your service’s health - from errors, cold starts and timeouts, to invocations and request patterns. Glance at the latest alerts or dive in deeper into function spans, stack traces and logs.
-<br /><br />
-With Serverless Framework, there is no need to spend time instrumenting your code in order to monitor your application. On deployment, Serverless Framework automatically instruments your services.
+    打开 Serverless Framework Dashboard，即可轻松了解Serverless服务装填，
+    包括错误提示，冷启动时间，超时，调用，请求方式等等。轻松浏览最新告警信息，并追踪排障。
+    无需花费时间来测试代码，监控应用。在部署时，Serverless Framework 会自动检测您的服务。
 
     </P0>
   </Flex>

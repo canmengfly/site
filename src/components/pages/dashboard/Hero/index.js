@@ -20,21 +20,21 @@ const DashboardHero = props => (
           dashboard
         </div>
         <div className={styles.productTagline}>
-          A unified view of your Serverless applications, featuring monitoring, alerting, deployments & much more.
+        Serverless 应用统一看板，具有监控，异常告警，部署状态反馈等功能。
         </div>
         <div className={styles.productCTA}>
           <ExternalLink to={dashboard}>
-            <Button type='primary' text='Sign up for free'/>
+            <Button type='primary' text='敬请期待'/>
           </ExternalLink>
         </div>
-        <div className={styles.productEdition}>
+        {/* <div className={styles.productEdition}>
           Available now in
           <InternalLink
             className={styles.editionLink}
             to={pricing}>
           Serverless Framework Pro.
           </InternalLink>
-        </div>
+        </div> */}
       </div>
       <div className={styles.productHeroColumnRight}>
         <img

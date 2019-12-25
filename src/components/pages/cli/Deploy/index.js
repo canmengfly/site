@@ -12,7 +12,7 @@ const StraightToCode = props => (
     <Content />
     <video muted className={styles.cliVideo} autoPlay loop>
       <source
-        src='https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/cli/CLI02.mp4'
+        src='https://serverless-cn-1253970226.cos.ap-guangzhou.myqcloud.com/Product/cli/CLI02.mp4'
         type='video/mp4'
       />
     </video>

@@ -5,24 +5,9 @@ import { InternalLink } from 'src/fragments'
 
 const CustomPoliciesContent = props => (
   <Flex flexDirection='column' width={[1, 1, 0.4]}>
-    <Heading.h3 mb={22}>Serverless for Teams</Heading.h3>
+    <Heading.h3 mb={22}>Serverless 团队协作</Heading.h3>
     <P0 mb={[42, 42, 0]}>
-      The Serverless Framework takes collaboration to a new level. Add your
-      entire team to the Dashboard so they can collaborate on their services
-      while limiting access to sensitive resources. Collaboration is built into
-      every feature of the Dashboard.
-      <br />
-      <br />
-      For example,{' '}
-      <InternalLink
-        to={'/framework/docs/dashboard/output-variables/'}
-        underline
-      >
-        shared output variables
-      </InternalLink>{' '}
-      enable developers to easily share state across independent services in a
-      microservices architecture and the deep Github integration enables
-      developers to work seamlessly across Github and the Serverless Framework.
+    Serverless Framework 提供完全的团队协作方案。可以将整个团队成员添加到Dashboard，以便团队以服务维度进行协作，同时提供账号管控能力可限制对敏感资源的访问。
     </P0>
   </Flex>
 )
