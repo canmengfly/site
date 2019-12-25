@@ -19,7 +19,7 @@ const CLIHero = props => (
           alt={'Serverless Framework'}
           className={styles.frameworkLogo} />
         <div className={styles.productName}>
-          
+        CLI命令行工具
         </div>
         <div className={styles.productTagline}>
         通过YAML+ CLI命令行工具，即可将Serverless应用轻松部署到云端
